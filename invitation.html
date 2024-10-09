@@ -5,16 +5,17 @@
         <title>Serious question</title>
         <style>
             h1{
-                color:rgb(0,0,139)
+                color:rgb(5, 5, 46)
             }
             body{
+                font-family: Arial, Helvetica, sans-serif;
                 background-color:rgb(165, 165, 193)
             }
         </style>
     </head>
     <body>
         <h1>Will you go on a date with me?</h1>
-        <img src="https://cdn.custom-cursor.com/packs/6481/memes-is-for-me-two-fingers-touching-pack.png" alt="shy" width="200">
+        <img src="https://cdn.custom-cursor.com/packs/6481/memes-is-for-me-two-fingers-touching-pack.png" alt="shy" width="300">
 
         <h2>Reasons to agree:</h2>
         <ul>
@@ -22,5 +23,18 @@
             <li>it will be fun!</li>
             <li>we'll buy delicious food and eat it!!!</li>
         </ul>
+
+        <h2>Sooooo.... What would you say?</h2>
+        <button id="clicker">Yes, I will!</button>
+        <button id="clicker2">Of course</button>
+        <script>
+            var clickerButton = document.getElementById("clicker");
+            var clickerButton2 = document.getElementById("clicker2");
+            var onButtonClick = function() {
+                clickerButton.textContent = "Heeey! Good choice ;)";
+                clickerButton2.textContent = "Oh wow!";
+            };
+            clickerButton.addEventListener("click", onButtonClick);    
+        </script>
     </body>    
 </html>
