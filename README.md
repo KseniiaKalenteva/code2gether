@@ -1,2 +1,2 @@
 # code2gether
-This is a space for us <3
+This is a space for us 
