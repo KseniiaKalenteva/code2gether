@@ -11,7 +11,11 @@
                 font-family: Arial, Helvetica, sans-serif;
                 background-color:rgb(165, 165, 193)
             }
+            ul{
+                border: 4px solid powderblue
+            }
         </style>
+        <link rel="stylesheet" href="buttonsstyle.css">
     </head>
     <body>
         <h1>Will you go on a date with me?</h1>
@@ -25,24 +29,9 @@
         </ul>
 
         <h2>Sooooo.... What would you say?</h2>
-        <button id="clicker">Yes, I will!</button>
-        <button id="clicker2">Of course</button>
-        <script>
-            var clickerButton = document.getElementById("clicker");
-            var clickerButton2 = document.getElementById("clicker2");
-            
-            var onButtonClick = function() {
-                clickerButton.textContent = "Heeey! Good choice ;)";
-            };
-
-            var onButtonClick2 = function() {
-                clickerButton2.textContent = "Oh wow!";
-            };
-
-
-
-            clickerButton.addEventListener("click", onButtonClick);
-            clickerButton2.addEventListener("click", onButtonClick2);    
+        <button id="clicker" class="buttons">Yes, I will!</button>
+        <button id="clicker2" class="buttons">Of course</button>
+        <script src="buttons.js">
         </script>
     </body>    
 </html>
