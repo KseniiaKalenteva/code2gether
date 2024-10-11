@@ -1,0 +1,12 @@
+#moon-phase {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#phase-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
