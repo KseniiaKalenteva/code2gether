@@ -1,4 +1,6 @@
 .buttons{
 	background-color:rgba(235, 239, 244, 0.942);
-	color:black
+	color:black;
+	width: 400;
+	margin: auto
 };
